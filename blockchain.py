@@ -4,10 +4,10 @@ import hashlib as hl
 import json
 import pickle
 
-from hash_util import hash_block
+from utility.hash_util import hash_block
+from utility.verification import Verification
 from block import Block
 from transaction import Transaction
-from verification import Verification
 
 # Global Variables --------------------------------------------
 MINING_REWARD = 10
