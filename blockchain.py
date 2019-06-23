@@ -19,8 +19,9 @@ class Blockchain:
         genesis_block = Block(0, '', [], 100, 0)
         self.chain = [genesis_block]
         self.__open_transactions = []
-        self.load_data()
         self.hosting_node = hosting_node_id
+        self.__peer_nodes = set()
+        self.load_data()
 
 # Getter und Setter ------------------------------------------------
     @property
@@ -45,7 +46,7 @@ class Blockchain:
             with open('blockchain.txt', mode='r') as f:
                 file_content = f.readlines()
                 blockchain = json.loads(file_content[0][:-1])
-                # We need to convert  the loaded data because Transactions should use OrderedDict
+                # Konvertieren der Daten zu einem OrderedDict.
                 updated_blockchain = []
                 for block in blockchain:
                     converted_tx = [Transaction(tx['sender'], tx['recipient'], tx['signature'], tx['amount']) for tx in block['transactions']]
@@ -53,13 +54,15 @@ class Blockchain:
 
                     updated_blockchain.append(updated_block)
                 self.chain = updated_blockchain
-                open_transactions = json.loads(file_content[1])
-                # We need to convert  the loaded data because Transactions should use OrderedDict
+                open_transactions = json.loads(file_content[1][:-1])
+                # Konvertieren der Daten zu einem OrderedDict.
                 updated_transactions = []
                 for tx in open_transactions:
                     updated_transaction = Transaction(tx['sender'], tx['recipient'], tx['signature'], tx['amount'])
                     updated_transactions.append(updated_transaction)
                 self.__open_transactions = updated_transactions
+                peer_nodes = json.loads(file_content[2])
+                self.__peer_nodes = set(peer_nodes)
         except (IOError, IndexError):
             print('IOError or IndexError on Blockchain!')
         finally:
@@ -75,6 +78,8 @@ class Blockchain:
                 f.write('\n')
                 saveable_tx = [tx.__dict__ for tx in self.__open_transactions]
                 f.write(json.dumps(saveable_tx))
+                f.write('\n')
+                f.write(json.dumps(list(self.__peer_nodes)))
                 # save_data = {
                 #     'chain': blockchain,
                 #     'ot': open_transactions
@@ -177,4 +182,25 @@ class Blockchain:
         self.save_data()
         return block
 
+    def add_peer_node(self, node):
+        """Adds a new node to the peer node set.
+
+        Arguments:
+            :node: The node URL which should be added.
+        """
+        self.__peer_nodes.add(node)
+        self.save_data()
+
+    def remove_peer_node(self, node):
+        """Removes a node from the peer node set.
+
+        Arguments:
+            :node: The node URL which should be added.
+        """
+        self.__peer_nodes.discard(node)
+        self.save_data()
+
+    def get_peer_nodes(self):
+        """Return a list of all connected peer nodes."""
+        return list(self.__peer_nodes)
 # Code --------------------------------------------------------
