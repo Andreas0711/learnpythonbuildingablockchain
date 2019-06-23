@@ -1,5 +1,4 @@
 Proof of Work.txt
-Functions & Strings/.ipynb_checkpoints/Function - variabel Anzahl Argumente-checkpoint.ipynb
 Transaction.txt
 Complex Data Structures/Datastructures.ipynb
 Complex Data Structures/Datenstrukturen richtig kopieren - Reference vs Value.ipynb
@@ -21,6 +20,7 @@ Functions & Strings/String - Escape.ipynb
 Functions & Strings/String - f.ipynb
 Functions & Strings/Strings - format().ipynb
 Functions & Strings/map().ipynb
+Functions & Strings/.ipynb_checkpoints/Function - variabel Anzahl Argumente-checkpoint.ipynb
 Functions & Strings/.ipynb_checkpoints/Lambda-Function-checkpoint.ipynb
 Functions & Strings/.ipynb_checkpoints/String - Escape-checkpoint.ipynb
 Functions & Strings/.ipynb_checkpoints/String - f-checkpoint.ipynb
@@ -55,3 +55,12 @@ basic_python_tutorial/.ipynb_checkpoints/Operators-checkpoint.ipynb
 basic_python_tutorial/.ipynb_checkpoints/Precision Problems-checkpoint.ipynb
 basic_python_tutorial/.ipynb_checkpoints/Satz in txt Datei schreiben und lesen-checkpoint.ipynb
 basic_python_tutorial/.ipynb_checkpoints/import-checkpoint.ipynb
+__pycache__/hash_util.cpython-37.pyc
+Working with Files/Datei öffnen, schreiben & lesen.ipynb
+Working with Files/.ipynb_checkpoints/with-Statement mit Files-checkpoint.ipynb
+Working with Files/.ipynb_checkpoints/Datei öffnen, schreiben & lesen-checkpoint.ipynb
+Working with Files/with-Statement mit Files.ipynb
+Working with Files/demo.txt
+Error Handling/.ipynb_checkpoints/try & catch-checkpoint.ipynb
+Error Handling/try & catch.ipynb
+.vscode/launch.json
