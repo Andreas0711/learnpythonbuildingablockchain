@@ -1,66 +1,85 @@
-Proof of Work.txt
-Transaction.txt
-Complex Data Structures/Datastructures.ipynb
-Complex Data Structures/Datenstrukturen richtig kopieren - Reference vs Value.ipynb
-Complex Data Structures/Dictionary - Comprehension.ipynb
-Complex Data Structures/List - Comprehension.ipynb
-Complex Data Structures/Sets.ipynb
-Complex Data Structures/all & any.ipynb
-Complex Data Structures/kopieren verschachtelte DS.ipynb
-Complex Data Structures/.ipynb_checkpoints/Datastructures-checkpoint.ipynb
-Complex Data Structures/.ipynb_checkpoints/Datenstrukturen richtig kopieren - Reference vs Value-checkpoint.ipynb
-Complex Data Structures/.ipynb_checkpoints/Dictionary - Comprehension-checkpoint.ipynb
-Complex Data Structures/.ipynb_checkpoints/List - Comprehension-checkpoint.ipynb
-Complex Data Structures/.ipynb_checkpoints/Sets-checkpoint.ipynb
-Complex Data Structures/.ipynb_checkpoints/all & any-checkpoint.ipynb
-Complex Data Structures/.ipynb_checkpoints/kopieren verschachtelte DS-checkpoint.ipynb
-Functions & Strings/Function - variabel Anzahl Argumente.ipynb
-Functions & Strings/Lambda-Function.ipynb
-Functions & Strings/String - Escape.ipynb
-Functions & Strings/String - f.ipynb
-Functions & Strings/Strings - format().ipynb
-Functions & Strings/map().ipynb
-Functions & Strings/.ipynb_checkpoints/Function - variabel Anzahl Argumente-checkpoint.ipynb
-Functions & Strings/.ipynb_checkpoints/Lambda-Function-checkpoint.ipynb
-Functions & Strings/.ipynb_checkpoints/String - Escape-checkpoint.ipynb
-Functions & Strings/.ipynb_checkpoints/String - f-checkpoint.ipynb
-Functions & Strings/.ipynb_checkpoints/Strings - format()-checkpoint.ipynb
-Functions & Strings/.ipynb_checkpoints/map()-checkpoint.ipynb
-Loops & Conditionals/Comparison Operators.ipynb
-Loops & Conditionals/Conditionals - if.ipynb
-Loops & Conditionals/Logical Conjunctions.ipynb
-Loops & Conditionals/Loops.ipynb
-Loops & Conditionals/.ipynb_checkpoints/Comparison Operators-checkpoint.ipynb
-Loops & Conditionals/.ipynb_checkpoints/Conditionals - if-checkpoint.ipynb
-Loops & Conditionals/.ipynb_checkpoints/Logical Conjunctions-checkpoint.ipynb
-Loops & Conditionals/.ipynb_checkpoints/Loops-checkpoint.ipynb
-basic_python_tutorial/Datatypes - Converting float.ipynb
-basic_python_tutorial/Datatypes - Converting int.ipynb
-basic_python_tutorial/Functions.ipynb
-basic_python_tutorial/Lists.ipynb
-basic_python_tutorial/Operators.ipynb
-basic_python_tutorial/PEP.txt
-basic_python_tutorial/Precision Problems.ipynb
-basic_python_tutorial/REPL.txt
-basic_python_tutorial/Satz in txt Datei schreiben und lesen.ipynb
-basic_python_tutorial/Scope.txt
-basic_python_tutorial/import.ipynb
-basic_python_tutorial/name.txt
-basic_python_tutorial/untitled.txt
-basic_python_tutorial/.ipynb_checkpoints/Datatypes - Converting float-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/Datatypes - Converting int-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/Functions-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/Lists-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/Operators-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/Precision Problems-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/Satz in txt Datei schreiben und lesen-checkpoint.ipynb
-basic_python_tutorial/.ipynb_checkpoints/import-checkpoint.ipynb
-__pycache__/hash_util.cpython-37.pyc
-Working with Files/Datei öffnen, schreiben & lesen.ipynb
-Working with Files/.ipynb_checkpoints/with-Statement mit Files-checkpoint.ipynb
-Working with Files/.ipynb_checkpoints/Datei öffnen, schreiben & lesen-checkpoint.ipynb
-Working with Files/with-Statement mit Files.ipynb
-Working with Files/demo.txt
-Error Handling/.ipynb_checkpoints/try & catch-checkpoint.ipynb
-Error Handling/try & catch.ipynb
 .vscode/launch.json
+blockchain.txt
+Blockchain Notizen/Keys.txt
+Blockchain Notizen/Proof of Work.txt
+Blockchain Notizen/Transaction.txt
+Notebooks/Complex Data Structures/Datastructures.ipynb
+Notebooks/Complex Data Structures/Datenstrukturen richtig kopieren - Reference vs Value.ipynb
+Notebooks/Complex Data Structures/Dictionary - Comprehension.ipynb
+Notebooks/Complex Data Structures/List - Comprehension.ipynb
+Notebooks/Complex Data Structures/Sets.ipynb
+Notebooks/Complex Data Structures/all & any.ipynb
+Notebooks/Complex Data Structures/kopieren verschachtelte DS.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/Datastructures-checkpoint.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/Datenstrukturen richtig kopieren - Reference vs Value-checkpoint.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/Dictionary - Comprehension-checkpoint.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/List - Comprehension-checkpoint.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/Sets-checkpoint.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/all & any-checkpoint.ipynb
+Notebooks/Complex Data Structures/.ipynb_checkpoints/kopieren verschachtelte DS-checkpoint.ipynb
+Notebooks/Error Handling/try & catch.ipynb
+Notebooks/Error Handling/.ipynb_checkpoints/try & catch-checkpoint.ipynb
+Notebooks/Functions & Strings/Function - variabel Anzahl Argumente.ipynb
+Notebooks/Functions & Strings/Lambda-Function.ipynb
+Notebooks/Functions & Strings/String - Escape.ipynb
+Notebooks/Functions & Strings/String - f.ipynb
+Notebooks/Functions & Strings/Strings - format().ipynb
+Notebooks/Functions & Strings/map().ipynb
+Notebooks/Functions & Strings/.ipynb_checkpoints/Function - variabel Anzahl Argumente-checkpoint.ipynb
+Notebooks/Functions & Strings/.ipynb_checkpoints/Lambda-Function-checkpoint.ipynb
+Notebooks/Functions & Strings/.ipynb_checkpoints/String - Escape-checkpoint.ipynb
+Notebooks/Functions & Strings/.ipynb_checkpoints/String - f-checkpoint.ipynb
+Notebooks/Functions & Strings/.ipynb_checkpoints/Strings - format()-checkpoint.ipynb
+Notebooks/Functions & Strings/.ipynb_checkpoints/map()-checkpoint.ipynb
+Notebooks/Loops & Conditionals/Comparison Operators.ipynb
+Notebooks/Loops & Conditionals/Conditionals - if.ipynb
+Notebooks/Loops & Conditionals/Logical Conjunctions.ipynb
+Notebooks/Loops & Conditionals/Loops.ipynb
+Notebooks/Loops & Conditionals/.ipynb_checkpoints/Comparison Operators-checkpoint.ipynb
+Notebooks/Loops & Conditionals/.ipynb_checkpoints/Conditionals - if-checkpoint.ipynb
+Notebooks/Loops & Conditionals/.ipynb_checkpoints/Logical Conjunctions-checkpoint.ipynb
+Notebooks/Loops & Conditionals/.ipynb_checkpoints/Loops-checkpoint.ipynb
+Notebooks/Modules/Erstellen eigener Module
+Notebooks/Modules/__name__.ipynb
+Notebooks/Modules/.ipynb_checkpoints/__name__-checkpoint.ipynb
+Notebooks/Object Oriented Programming/Attributes vs Properties.ipynb
+Notebooks/Object Oriented Programming/Instance vs Class vs Static Methods.ipynb
+Notebooks/Object Oriented Programming/Klasse + Instanzierung.ipynb
+Notebooks/Object Oriented Programming/Konstruktor.ipynb
+Notebooks/Object Oriented Programming/Output einer Instanz.ipynb
+Notebooks/Object Oriented Programming/Private Attributes.ipynb
+Notebooks/Object Oriented Programming/Vererbung.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Attributes vs Properties-checkpoint.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Instance vs Class vs Static Methods-checkpoint.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Klasse + Instanzierung-checkpoint.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Konstruktor-checkpoint.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Output einer Instanz-checkpoint.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Private Attributes-checkpoint.ipynb
+Notebooks/Object Oriented Programming/.ipynb_checkpoints/Vererbung-checkpoint.ipynb
+Notebooks/Working with Files/Datei öffnen, schreiben & lesen.ipynb
+Notebooks/Working with Files/demo.txt
+Notebooks/Working with Files/with-Statement mit Files.ipynb
+Notebooks/Working with Files/.ipynb_checkpoints/Datei öffnen, schreiben & lesen-checkpoint.ipynb
+Notebooks/Working with Files/.ipynb_checkpoints/with-Statement mit Files-checkpoint.ipynb
+Notebooks/basic_python_tutorial/Datatypes - Converting float.ipynb
+Notebooks/basic_python_tutorial/Datatypes - Converting int.ipynb
+Notebooks/basic_python_tutorial/Functions.ipynb
+Notebooks/basic_python_tutorial/Lists.ipynb
+Notebooks/basic_python_tutorial/Operators.ipynb
+Notebooks/basic_python_tutorial/PEP.txt
+Notebooks/basic_python_tutorial/Precision Problems.ipynb
+Notebooks/basic_python_tutorial/REPL.txt
+Notebooks/basic_python_tutorial/Satz in txt Datei schreiben und lesen.ipynb
+Notebooks/basic_python_tutorial/Scope.txt
+Notebooks/basic_python_tutorial/import.ipynb
+Notebooks/basic_python_tutorial/name.txt
+Notebooks/basic_python_tutorial/untitled.txt
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Datatypes - Converting float-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Datatypes - Converting int-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Functions-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Lists-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Operators-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Precision Problems-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/Satz in txt Datei schreiben und lesen-checkpoint.ipynb
+Notebooks/basic_python_tutorial/.ipynb_checkpoints/import-checkpoint.ipynb
+blockchain.txt
